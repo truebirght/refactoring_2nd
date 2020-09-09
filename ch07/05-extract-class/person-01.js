@@ -7,3 +7,5 @@ class Person {
     get officeNumber() { return this._officeNumber; }
     set officeNumber(arg) { this._officeNumber = arg; }
 }
+
+module.exports = {Person}

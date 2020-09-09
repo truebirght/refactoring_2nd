@@ -10,3 +10,5 @@ class Order {
             return basePrice * discountFactor;
         }
 }
+
+module.exports = {Order}
